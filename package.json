@@ -1,0 +1,41 @@
+{
+  "name": "webpack-simple-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple webpack boilerplate for single page applications",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --progress",
+    "build": "webpack -p --progress",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazzbrotha/webpack-simple-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "es6",
+    "babel",
+    "sass"
+  ],
+  "author": "JazzBrotha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jazzbrotha/webpack-simple-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jazzbrotha/webpack-simple-boilerplate#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.28.0",
+    "html-webpack-plugin": "^2.24.1",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

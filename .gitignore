@@ -1,0 +1,4 @@
+node_modules
+npm-debug.log
+dist/bundle.min.js.map
+src/config/pixabay.json
