@@ -27,10 +27,10 @@ For running the project in a development preview server execute.
 npm i && npm start
 ```
 
-> The project can be builded using `npm run build` which prouduces smaller assets given the Webpack optimeizations for Production environments.
+> The project can be built statically using `npm run build` which produces smaller assets given the Webpack optimizations for Production environments.
 
 ## 3. Additional Comments
-I'm using a technique for iamges lazy loading that uses an observer to see if the image is in the current viewport.
+I'm using a technique for images lazy loading that uses an observer and to see if the image is in the current viewport. It provides  a lower res image initially to improve Start Render Time (that's why images are blurry at the beggining and they lazy loaded when they appear within the viewport).
 
 Please contact me if you have any questions.
 
